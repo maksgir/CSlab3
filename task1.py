@@ -22,8 +22,5 @@ num_of_smiles_in_test3 = count_smiles(3)  # Должно быть 110 - 1
 num_of_smiles_in_test4 = count_smiles(4)  # Должно быть 33
 num_of_smiles_in_test5 = count_smiles(5)  # Должно быть 144
 
-print(count_smiles(1))
-print(count_smiles(2))
-print(count_smiles(3))
-print(count_smiles(4))
-print(count_smiles(5))
+for i in range(1, 6):
+    print(f'В тесте {i} найдено смайликов =-( - {count_smiles(i)}')

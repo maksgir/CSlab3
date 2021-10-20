@@ -22,8 +22,6 @@ def haiku_searching(num_of_test):
     return "Не хайку."
 
 
-print(haiku_searching(1))
-print(haiku_searching(2))
-print(haiku_searching(3))
-print(haiku_searching(4))
-print(haiku_searching(5))
+for i in range(1, 6):
+    print(f'Тест {i} - {haiku_searching(i)}')
+

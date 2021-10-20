@@ -19,9 +19,5 @@ def mail_analysing(num_of_test):
     return server[1]
 
 
-print(mail_analysing(1))
-print(mail_analysing(2))
-print(mail_analysing(3))
-print(mail_analysing(4))
-print(mail_analysing(5))
-print(mail_analysing(6))
+for i in range(1, 7):
+    print(f'Тест {i} - {mail_analysing(i)}')
